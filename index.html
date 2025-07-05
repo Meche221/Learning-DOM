@@ -4,13 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning-DOM</title>
+</head>
+<body>
   <h4>Youtube Subscribe Button</h4>
   <button onclick="
     subscribe();
-  " class="subscribe-button">Subscribe</button> <br> <br>
+  " class="subscribe-button">Subscribe</button>
+  
+  <h3 style="margin-top: 60px;">Rock-Paper-Scissors</h3>
   <a href="game.html">version 1.2 Rock Paper Scissors</a>
-</head>
-<body>
+  
+  <p style="margin-top: 60px;">Amazon Shipping Calculator</p>
+  <p>Orders under $40 = +$10 shipping</p>
+  <p>Orders over $40 = FREE shipping</p>
+  <input id="js-cost-input" placeholder="Cost of Order" onkeydown=" 
+ event.key">
+  <button onclick="
+  calculateTotal()
+  ">Calculate</button>
+  <p id="js-total-cost"></p>
   <script src="script.js"></script>
 </body>
 </html>
