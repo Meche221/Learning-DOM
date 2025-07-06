@@ -1,0 +1,29 @@
+h4{
+  font-weight: 500;
+}
+.subscribe-button{
+  border-radius: 20px;
+  border: none;
+  padding: 10px 19px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.subscribe-button:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+#js-cost-input{
+  padding: 10px 10px;
+}
+#calculate-button{
+  background-color: rgb(20, 140, 20);
+  border: none;
+  padding: 10px 10px;
+  transition: 0.4s;
+}
+#calculate-button:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
