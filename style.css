@@ -27,3 +27,9 @@ h4{
   opacity: 0.5;
   cursor: pointer;
 }
+#js-total-cost{
+  text-decoration: underline;
+}
+.subscribed-clicked{
+  background-color: rgb(180, 178, 178);
+}
